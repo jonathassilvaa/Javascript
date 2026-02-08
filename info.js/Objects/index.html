@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Dados Pessoais</h1>
+        <form>
+            <h2>Insira seus dados pessoais abaixo:</h2>
+            <label for="inName">Nome de Usuário: </label>
+            <input type="text" name="inName" class="input" id="inName">
+
+            <label for="inAge">Idade: </label>
+            <input type="number" name="inAge" id="inAge"> 
+
+            <label for="inCPF">CPF: </label>
+            <input type="text" name="inCPF" inputmode="numeric" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" maxlength="14" autocomplete="off" id="inCPF">
+
+            <label for="inTel">Número de Telefone: </label>
+            <input type="tel" name="inTel" inputmode="tel" placeholder="(00) 12345-6789" autocomplete="tel"  id="inTel">
+
+            <label for="inEmail">Email do Usuário:</label>
+            <input type="email" name="inEmail"
+            inputmode="email" placeholder="abcde@gmail.com" autocomplete="email" id="inEmail">
+
+            <label for="inPass">Senha do Usuário:</label>
+            <input type="password" name="inPass" autocomplete="current-password" id="inPass">
+
+            <input type="submit" value="Enviar Dados" id="btSub">
+
+        </form>
+
+        <p id="res">Resultado</p>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
