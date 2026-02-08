@@ -1,0 +1,8 @@
+{
+  "code-runner.runInTerminal": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.executorMap": {
+    "javascript": "node"
+  }
+}

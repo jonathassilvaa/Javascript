@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo com Section e Article</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #333; color: white; text-align: center; padding: 1em; }
+    nav ul { list-style: none; padding: 0; }
+    nav ul li { display: inline; margin: 0 10px; }
+    nav ul li a { color: white; text-decoration: none; }
+    main { padding: 20px; }
+    section { margin-bottom: 30px; }
+    article { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
+    article h3 { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site de Notícias</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SEÇÃO SOBRE -->
+    <section>
+      <h2>Sobre nós</h2>
+      <p>Somos um portal de notícias focado em tecnologia e inovação.</p>
+    </section>
+
+    <!-- SEÇÃO DE NOTÍCIAS -->
+    <section>
+      <h2>Últimas notícias</h2>
+
+      <!-- Cada notícia é um ARTICLE -->
+      <article>
+        <h3>Nova versão do HTML5 lançada</h3>
+        <p>A nova versão traz mais semântica e recursos para desenvolvedores web.</p>
+      </article>
+
+      <article>
+        <h3>JavaScript recebe atualização</h3>
+        <p>A linguagem mais popular da web agora tem novos recursos para facilitar o desenvolvimento.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Meu Site de Notícias</p>
+  </footer>
+</body>
+</html>
